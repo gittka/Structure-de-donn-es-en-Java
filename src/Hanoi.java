@@ -1,6 +1,8 @@
 public class Hanoi {
     public static void main(String[] args) {
+        /* Just for a Test*/
         HanoiTower(4, 'X', 'Z', 'Y');
+
 
     }
      static void  HanoiTower(int n, char depart, char intermediaire, char arrivee){
